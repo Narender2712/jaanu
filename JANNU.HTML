@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm Sorry, Jannu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(to bottom right, #ffc0cb, #ffffff);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #b30059;
+            overflow: hidden;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            animation: fadeInDown 2s;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+            margin-bottom: 30px;
+            animation: fadeIn 3s;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #ff66a3;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            animation: heartbeat 2s infinite;
+        }
+        @keyframes fadeInDown {
+            0% { opacity: 0; transform: translateY(-50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I'm Sorry, Jannu...</h1>
+        <p>
+            I don't even know where to begin, because no words can fully express how sorry I am.<br><br>
+            Hurting your feelings is the biggest regret of my life, and every second without your smile feels like a lifetime.<br><br>
+            Jannu, your smile lights up my world brighter than a thousand suns. Your caring nature, your beautiful heart — they are treasures more precious than anything I could ever dream of.<br><br>
+            You are the poem I never knew how to write, and the melody I always wanted to hear.<br><br>
+            I'm deeply sorry for the pain I've caused you. My world feels empty without you. I miss your laughter, your touch, your warmth — I miss everything that makes you, you.<br><br>
+            Please forgive me, my love. My heart beats your name with every breath I take.<br><br>
+            I love you more than anything in this universe, Jannu. I will keep loving you, in every lifetime, in every heartbeat, forever.
+        </p>
+        <button class="button" onclick="alert('I Love You, Jannu ❤️')">Forgive Me?</button>
+    </div>
+</body>
+</html>
